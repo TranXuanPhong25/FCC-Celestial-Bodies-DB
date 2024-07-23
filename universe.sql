@@ -290,26 +290,26 @@ INSERT INTO public.galaxy VALUES (6, 'Sombrero Galaxy', 'Known for its bright nu
 -- Data for Name: moon; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
 
-INSERT INTO public.moon VALUES (1, 'Luna', 0.38, 4500, 'The Moon of Earth.', NULL);
-INSERT INTO public.moon VALUES (2, 'Phobos', 0.01, 4600, 'One of Mars moons, very close to the planet.', NULL);
-INSERT INTO public.moon VALUES (3, 'Deimos', 0.02, 4600, 'The smaller of Mars two moons.', NULL);
-INSERT INTO public.moon VALUES (4, 'Io', 0.42, 4500, 'One of Jupiter''s moons, most volcanically active body in the solar system.', NULL);
-INSERT INTO public.moon VALUES (5, 'Europa', 0.67, 4500, 'A moon of Jupiter with a smooth, icy surface.', NULL);
-INSERT INTO public.moon VALUES (6, 'Ganymede', 1.07, 4500, 'The largest moon in the solar system, orbits Jupiter.', NULL);
-INSERT INTO public.moon VALUES (7, 'Callisto', 1.88, 4500, 'A heavily cratered moon orbiting Jupiter.', NULL);
-INSERT INTO public.moon VALUES (8, 'Titan', 1.22, 4500, 'Largest moon of Saturn, has a thick atmosphere.', NULL);
-INSERT INTO public.moon VALUES (9, 'Rhea', 0.53, 4500, 'The second largest moon of Saturn.', NULL);
-INSERT INTO public.moon VALUES (10, 'Iapetus', 3.56, 4500, 'A moon of Saturn known for its two-tone coloration.', NULL);
-INSERT INTO public.moon VALUES (11, 'Miranda', 0.13, 4500, 'One of Uranus'' moons, known for its unique surface features.', NULL);
-INSERT INTO public.moon VALUES (12, 'Ariel', 0.19, 4500, 'A moon of Uranus.', NULL);
-INSERT INTO public.moon VALUES (13, 'Umbriel', 0.27, 4500, 'A moon of Uranus with a dark surface.', NULL);
-INSERT INTO public.moon VALUES (14, 'Titania', 0.44, 4500, 'The largest moon of Uranus.', NULL);
-INSERT INTO public.moon VALUES (15, 'Oberon', 0.58, 4500, 'A moon of Uranus, second largest.', NULL);
-INSERT INTO public.moon VALUES (16, 'Triton', 0.35, 4500, 'The largest moon of Neptune, orbits in a retrograde direction.', NULL);
-INSERT INTO public.moon VALUES (17, 'Charon', 0.02, 4500, 'The largest moon of Pluto, part of a binary system with Pluto.', NULL);
-INSERT INTO public.moon VALUES (18, 'Nix', 0.05, 4500, 'A small moon of Pluto.', NULL);
-INSERT INTO public.moon VALUES (19, 'Hydra', 0.07, 4500, 'Another small moon of Pluto.', NULL);
-INSERT INTO public.moon VALUES (20, 'Kerberos', 0.06, 4500, 'A moon of Pluto, discovered in 2011.', NULL);
+INSERT INTO public.moon VALUES (4, 'Io', 0.42, 4500, 'One of Jupiter''s moons, most volcanically active body in the solar system.', 5);
+INSERT INTO public.moon VALUES (5, 'Europa', 0.67, 4500, 'A moon of Jupiter with a smooth, icy surface.', 5);
+INSERT INTO public.moon VALUES (6, 'Ganymede', 1.07, 4500, 'The largest moon in the solar system, orbits Jupiter.', 5);
+INSERT INTO public.moon VALUES (7, 'Callisto', 1.88, 4500, 'A heavily cratered moon orbiting Jupiter.', 5);
+INSERT INTO public.moon VALUES (1, 'Luna', 0.38, 4500, 'The Moon of Earth.', 3);
+INSERT INTO public.moon VALUES (2, 'Phobos', 0.01, 4600, 'One of Mars moons, very close to the planet.', 4);
+INSERT INTO public.moon VALUES (3, 'Deimos', 0.02, 4600, 'The smaller of Mars two moons.', 4);
+INSERT INTO public.moon VALUES (8, 'Titan', 1.22, 4500, 'Largest moon of Saturn, has a thick atmosphere.', 4);
+INSERT INTO public.moon VALUES (9, 'Rhea', 0.53, 4500, 'The second largest moon of Saturn.', 4);
+INSERT INTO public.moon VALUES (10, 'Iapetus', 3.56, 4500, 'A moon of Saturn known for its two-tone coloration.', 4);
+INSERT INTO public.moon VALUES (11, 'Miranda', 0.13, 4500, 'One of Uranus'' moons, known for its unique surface features.', 4);
+INSERT INTO public.moon VALUES (12, 'Ariel', 0.19, 4500, 'A moon of Uranus.', 4);
+INSERT INTO public.moon VALUES (13, 'Umbriel', 0.27, 4500, 'A moon of Uranus with a dark surface.', 4);
+INSERT INTO public.moon VALUES (14, 'Titania', 0.44, 4500, 'The largest moon of Uranus.', 4);
+INSERT INTO public.moon VALUES (15, 'Oberon', 0.58, 4500, 'A moon of Uranus, second largest.', 4);
+INSERT INTO public.moon VALUES (16, 'Triton', 0.35, 4500, 'The largest moon of Neptune, orbits in a retrograde direction.', 4);
+INSERT INTO public.moon VALUES (17, 'Charon', 0.02, 4500, 'The largest moon of Pluto, part of a binary system with Pluto.', 4);
+INSERT INTO public.moon VALUES (18, 'Nix', 0.05, 4500, 'A small moon of Pluto.', 4);
+INSERT INTO public.moon VALUES (19, 'Hydra', 0.07, 4500, 'Another small moon of Pluto.', 4);
+INSERT INTO public.moon VALUES (20, 'Kerberos', 0.06, 4500, 'A moon of Pluto, discovered in 2011.', 4);
 
 
 --
