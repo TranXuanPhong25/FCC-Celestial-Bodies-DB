@@ -47,3 +47,10 @@ git add .
 git remote add origin https://github.com/TranXuanPhong25/FCC-Celestial-Bodies-DB.git
 rm -rf .git
 echo "# FCC-Celestial-Bodies-DB" >> README.md
+psql --username=freecodecamp --dbname=postgres
+\c universe
+psql --username=freecodecamp --dbname=postgres
+psql --username=freecodecamp --dbname=postgres
+psql --username=freecodecamp --dbname=postgres
+pg_dump -cC --inserts -U freecodecamp universe > universe.sql
+psql --username=freecodecamp --dbname=postgres
